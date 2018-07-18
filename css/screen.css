@@ -1,0 +1,262 @@
+@media only screen and (max-width: 1600px) {
+}
+
+@media only screen and (max-width:1440px) {
+}
+
+@media only screen and (max-width:1366px) {
+}
+
+@media only screen and (max-width: 1280px) {
+}
+
+@media only screen and (max-width: 1152px) {
+header .body {width:96%;}
+header .body .logo{width:47%;}
+header .body .lang{width:23%;}
+#cssmenu > ul > li > a{padding:0.8rem 3.2rem;}
+section.home-info .body {width:96%;}
+section.home-info .body .companies .all-companies .one-cmp p{margin:0 13%; width:74%;}
+footer .body {width:96%;}
+footer .body-copy {width:96%;}
+section.inner-info .body {width:96%;}
+section.inner-info .body .content{padding:1rem 0 0 0; margin:0 4%; float:left; width:92%;}
+section.inner-info .body .content .tabs-section{width:98%;}
+footer .body .blue-right .footer-social a{padding:0 0.5rem 0 0;}
+}
+
+@media only screen and (max-width: 1024px) {
+header .body .logo{width:45%;}
+header .body .lang{width:25%;}
+#cssmenu > ul > li > a{padding:0.8rem 2.6rem;}
+section.home-info .body .companies .all-companies .one-cmp p{margin:0 8%; width:84%;}
+section.inner-info .body .content{padding:1rem 0 0 0; margin:0 0%; float:left; width:100%;}
+section.inner-info .body .content .content-image img{width:100%;}
+section.inner-info .body .content .tabs-section{width:100%;}
+footer .body .blue-right .footer-social a{padding:0 0.1rem 0 0;}
+}
+
+@media only screen and (max-width: 991px) {
+header .body .logo{width:43%;}
+header .body .lang{width:27%;}
+#cssmenu > ul > li > a{padding:0.8rem 2.4rem;}
+section.home-info .body .companies .all-companies .one-cmp p{margin:0 7%; width:86%;}
+footer .body .blue-right .footer-social a img{width:30%; margin:1.7rem 0 0 0;}
+}
+
+@media only screen and (max-width: 960px) {
+header .body .logo{width:43%;}
+header .body .lang{width:27%;}
+#cssmenu > ul > li > a{padding:0.8rem 2.3rem;}
+section.home-info .body .companies .all-companies .one-cmp p{margin:0 6%; width:88%;}
+}
+
+@media only screen and (max-width: 900px) {
+header .body .logo{width:41%;}
+header .body .lang{width:29%;}
+#cssmenu > ul > li > a{padding:0.8rem 2rem;}
+section.home-info .body .companies .all-companies .one-cmp p{margin:0 3%; width:94%; font-size:1.3rem;}
+footer .body .blue-right .footer-careers{padding:0; margin:0; float:left; width:80%; border-right:2px solid #536d80;}
+footer .body .blue-right .footer-careers p{padding:1.2rem 0; font-size:1.25rem; line-height:2.2rem; font-weight:400;}
+footer .body .blue-right .footer-social{padding:0; margin:0 0 0 5%; float:left; width:15%;}
+footer .body .blue-right .footer-social a img{width:auto; margin:0.4rem 0 0 0;}
+.tabs a {font-size:1.1rem;}
+.partner-box{padding:1rem; margin:0 1% 0.5rem 0; width:32.3%;}
+}
+
+@media only screen and (max-width: 800px) {
+header .body .logo{width:37%;}
+header .body .lang{width:33%;}
+/*----------------start MENU-----------------*/
+nav{width:100%;}
+#cssmenu{width:100%; height:45px;}
+#cssmenu ul{width:100%; display:none; background:#284860; margin:3.2em 0 0 0; line-height:1.4rem;}
+#cssmenu ul li{width:100%; border-top:1px solid #122d42;}
+#cssmenu ul li:last-child {border-bottom:1px solid #122d42;}
+#cssmenu ul li:hover{background:#122d42;}
+#cssmenu > ul > li{float:none;}
+#cssmenu ul ul, #cssmenu ul ul ul{position:relative;left:0;width:100%;margin:0;text-align:left}
+#cssmenu ul ul li,#cssmenu li:hover > ul > li{height:auto;}
+#cssmenu ul ul li{background:#122d42; border-bottom:1px solid #081e2e; border-top:none;}
+#cssmenu ul ul li a{color:#ffffff !important; background:none; width:100%; border-bottom:0; padding:0.7rem 3rem;}
+#cssmenu ul ul li:hover > a,#cssmenu ul ul li.active > a{color:#000000 !important;}
+#cssmenu ul ul ul li{border-bottom:1px solid #37a7a6;}
+#cssmenu ul ul ul li a{width:100%; padding:0.7rem 0 0.7rem 3.8rem; color:#000000 !important;}
+#cssmenu > ul > li.has-sub > a:after,#cssmenu > ul > li.has-sub > a:before,#cssmenu ul ul > li.has-sub > a:after,#cssmenu ul ul > li.has-sub > a:before{display:none;}
+#cssmenu > ul > li.has-sub > ul > li.active > a,#cssmenu > ul ul > li.has-sub > ul > li.active > a{border-top:none;}
+#cssmenu #head-mobile{display:block; padding:0px; color:#ddd; font-size:12px; font-weight:700;}
+.button{top:102px; width:96%; height:45px; position:absolute; left:1rem; cursor:pointer; z-index: 1000; border:0px solid #000000;}
+.button:after{position:absolute; top:22px; right:20px; display:block; height:9px; width:28px; border-top:3px solid #fff; border-bottom:3px solid #fff; content:''}
+.button:before{position:absolute; top:16px; right:20px; display:block; height:3px; width:28px; background:#fff; content:'';
+-webkit-transition:all .3s ease;
+-ms-transition:all .3s ease;
+transition:all .3s ease;}
+.button.menu-opened:after{top:23px; border:0; height:3px; width:25px; background:#ffffff;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-ms-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+transform:rotate(45deg);
+-webkit-transition:all .3s ease;
+-ms-transition:all .3s ease;
+transition:all .3s ease;}
+.button.menu-opened:before{top:23px; background:#ffffff; width:25px;
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-ms-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+transform:rotate(-45deg);}
+#cssmenu .submenu-button{position:absolute; z-index:10099; right:0; top:0; display:block; height:45px; width:100%; cursor:pointer;}
+#cssmenu .submenu-button.submenu-opened{background:none;}
+#cssmenu .submenu-button:after{position:absolute; top:22px; right:19px; width:8px; height:2px; display:block; background:#ffffff; content:''}
+#cssmenu .submenu-button.submenu-opened:after{background:#fff;}
+#cssmenu .submenu-button:before{position:absolute; top:19px; right:22px; display:block; width:2px; height:8px; background:#ffffff; content:''}
+#cssmenu .submenu-button.submenu-opened:before{display:none;}
+#cssmenu ul ul .submenu-button{height:45px; width:100%;}
+#cssmenu ul ul .submenu-button:after{top:23px; right:13px;}
+#cssmenu ul ul .submenu-button:before{top:20px; right:16px;}
+#cssmenu ul ul .submenu-button:after{position:absolute; top:22px; right:19px; width:8px; height:2px; display:block; background:#ffffff; content:''}
+#cssmenu ul ul .submenu-button.submenu-opened:after{background:#000000;}
+#cssmenu ul ul .submenu-button:before{position:absolute; top:19px; right:22px; display:block; width:2px; height:8px; background:#ffffff; content:''}
+/*----------------END MENU-----------------*/
+section.home-info .body .companies{padding:0; margin:2.5rem 0 0 0; float:left; width:100%;}
+section.home-info .body .companies .all-companies .one-cmp img{width:82%;}
+section.home-info .body .companies .all-companies .one-cmp p{margin:0 2%; width:96%; font-size:1.25rem;}
+footer .body .blue-right .footer-contacts{margin:0 0 1rem 0;}
+footer .body .blue-right .footer-contacts p{margin:0 0 1rem 0;}
+footer .body .blue-right .footer-careers{width:100%; border-right:none; border-bottom:2px solid #536d80;}
+footer .body .blue-right .footer-careers p{padding:1rem 0; font-size:1.25rem; line-height:2rem;}
+footer .body .blue-right .footer-social{padding:1rem 0 0 0; margin:0; width:100%;}
+.modalDialog > div {width:650px; top:3rem; padding:2rem 1rem;}
+a.apply-position{margin:5rem 0 0 0; padding:1.2rem 0; width:50%;}
+.partner-box{padding:1rem; margin:0 1.3% 0.7rem 0; width:32%;}
+footer .body .blue-right .footer-social a{padding:0 1rem 0 0;}
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width:700px){
+header .body .logo{width:30%;}
+header .body .search{padding:0; margin:1.8rem 0 0 25%; float:left; width:45%;}
+header .body .lang{width:37%; position:absolute; top:0; right:0; margin:1rem 0 0 0;}
+.button{top:102px; width:96%; height:45px; position:absolute; left:0.8rem; cursor:pointer; z-index: 1000;}
+section.home-info{margin:1rem 0 0 0;}
+footer .body .blue-left{padding:0 0 2rem 0; margin:0; float:left; width:100%; border-right:none; border-bottom:2px solid #536d80;}
+footer .body .blue-right{padding:2rem 0; margin:0; float:left; width:100%;}
+footer .body .blue-right .footer-contacts{padding:0; margin:0 0 2rem 0; float:left; width:100%; border-bottom:2px solid #536d80;}
+footer .body .blue-right .footer-contacts span.global-phone{padding:0; margin:1rem 0 0 0; float:left; width:100%; color:#7e91a0; font-size:1.25rem;}
+footer .body .blue-right .footer-contacts i{font-size:0.75rem; color:#7e91a0; font-weight:600; margin:0 0 2rem 0; display:block;}
+footer .body .blue-right .footer-contacts p{color:#7e91a0; margin:0 0 2rem 0;}
+footer .body .blue-right .footer-careers{padding:0; margin:0; float:left; width:60%; border-right:2px solid #536d80; border-bottom:none;}
+footer .body .blue-right .footer-careers p{padding:1rem 0 0 0; font-size:1.25rem; line-height:2.2rem; font-weight:400;}
+footer .body .blue-right .footer-social{padding:0; margin:0 0 0 5%; float:left; width:35%;}
+footer .body .blue-right .footer-social a img{width:auto; margin:1.7rem 0 0 0;}
+.modalDialog > div {width:600px; top:3rem; padding:2rem 1rem;}
+}
+
+@media only screen and (max-width: 640px) {
+header .body .logo{width:30%;}
+header .body .search{padding:0; margin:1.8rem 0 0 25%; float:left; width:45%;}
+header .body .lang{width:39%; position:absolute; top:0; right:1rem; margin:1rem 0 0 0;}
+section.home-info .body .companies .all-companies .one-cmp{padding:0 0 5px 0; margin:0 10% 1.5rem 10%; float:left; width:80%; text-align:left; border-bottom:1px solid #d1d1d1;}
+section.home-info .body .companies .all-companies .one-cmp img{width:40%; float:left; padding:0; margin:0 5% 0 0;}
+section.home-info .body .companies .all-companies .one-cmp p{margin:0.5rem 0 0 0; width:55%; font-size:1.375rem; clear:none;}
+.modalDialog > div {width:550px; top:3rem; padding:2rem 1rem;}
+a.apply-position{margin:5rem 0 0 0; padding:1.2rem 0; width:50%; font-size:1.5rem;}
+.partner-box{padding:1rem; margin:0 2% 0.8rem 0; width:48%;}
+footer .body .blue-right .footer-social a{padding:0 0.9rem 0 0;}
+}
+
+@media only screen and (max-width: 600px) {
+header .body .logo{width:30%;}
+header .body .search{padding:0; margin:1.8rem 0 0 20%; float:left; width:50%;}
+header .body .lang{width:41%; position:absolute; top:0; right:1rem; margin:1rem 0 0 0;}
+section.home-info .body .companies .all-companies .one-cmp{padding:0 0 5px 0; margin:0 7% 1.5rem 7%; float:left; width:86%; text-align:left; border-bottom:1px solid #d1d1d1;}
+.modalDialog > div {width:500px; top:3rem; padding:2rem 1rem;}
+a.apply-position{margin:5rem 0 0 0; padding:1.2rem 0; width:55%; font-size:1.5rem;}
+}
+
+@media only screen and (max-width: 480px) {
+header .body .logo{width:38%;}
+header .body .search{padding:0; margin:1.8rem 0 0 10%; float:left; width:52%;}
+header .body .lang{width:51%; position:absolute; top:0; right:0.6rem; margin:1rem 0 0 0;}
+.button{top:102px; width:96%; height:45px; position:absolute; left:0.6rem; cursor:pointer; z-index: 1000;}
+section.home-info .body .companies .main-company span.title-main-comp{font-size:4.6rem; padding:0 0.8rem;}
+section.home-info .body .companies .slogan{font-size:1.55rem;}
+section.home-info .body .companies .slogan img{width:87%;}
+section.home-info .body .companies .all-companies .one-cmp{padding:0 0 8px 0; margin:0 5% 1.5rem 5%; float:left; width:90%; text-align:left; border-bottom:1px solid #d1d1d1;}
+section.home-info .body .companies .all-companies .one-cmp img{width:35%; float:left; padding:0; margin:0 3% 0 0;}
+section.home-info .body .companies .all-companies .one-cmp p{margin:0.1rem 0 0 0; width:57%; font-size:1.2rem; clear:none;}
+section.inner-info .body .content .content-page-title span img{width:94%;}
+.tabs a {font-size:1rem;}
+section.inner-info .body .content .content-page-title h1{font-size:1.55rem; line-height:2rem;}
+.modalDialog > div {width:440px; top:3rem; padding:2rem 1rem;}
+a.apply-position{margin:5rem 0 0 0; padding:1.2rem 0; width:60%; font-size:1.5rem;}
+section.inner-info .body .content .free-positions .position a h1{margin:0 10% 0.3rem 0; width:90%;}
+section.inner-info .body .content .free-positions .position a p{margin:0 10% 0 0; width:90%;}
+footer .body .blue-right .footer-social a{padding:0 0.4rem 0 0;}
+footer .body .blue-right .footer-social a img{width:26%; margin:1.7rem 0 0 0;}
+}
+
+@media only screen and (max-width: 375px) {
+header .body {width:94%;}
+header .body .logo{width:100%;}
+header .body .search{padding:0; margin:0.8rem 0 0 0; float:left; width:100%;}
+header .body .lang{width:40%; position:absolute; top:0; right:0.4rem; margin:1.6rem 0 0 0; border-left:1px solid #CCCCCC;}
+.button{top:155px; width:94.5%; height:46px; position:absolute; left:0.6rem; cursor:pointer; z-index: 1000;}
+section.home-info .body .companies .main-company span.title-main-comp{font-size:4rem; padding:0 0.3rem;}
+section.home-info .body .companies .slogan{font-size:1.55rem; line-height:2rem; margin:1rem 0 0 15%; width:70%;}
+section.home-info .body .companies .slogan img{width:100%; margin:8px 0 0 0; padding:0; float:left;}
+section.home-info{margin:0.7rem 0 0 0;}
+section.home-info .body {width:94%;}
+section.home-info .body .companies .all-companies .one-cmp{padding:0 0 8px 0; margin:0 5% 2.5rem 5%; float:left; width:90%; text-align:center; border-bottom:1px solid #d1d1d1;}
+section.home-info .body .companies .all-companies .one-cmp img{width:55%; float:none; padding:0; margin:0;}
+section.home-info .body .companies .all-companies .one-cmp p{margin:0.1rem 0 0 0; width:100%; font-size:1.2rem; clear:both;}
+footer .body .blue-footer{padding:1rem;}
+footer .body .blue-left{padding:0 0 1rem 0; margin:0; float:left; width:100%; border-right:none; border-bottom:2px solid #536d80;}
+footer .body .blue-right{padding:1rem 0; margin:0; float:left; width:100%;}
+footer .body .blue-right .footer-contacts{padding:0; margin:0 0 2rem 0; float:left; width:100%; border-bottom:2px solid #536d80;}
+footer .body .blue-right .footer-contacts span.global-phone{padding:0; margin:1rem 0 0 0; float:left; width:100%; color:#7e91a0; font-size:1.25rem;}
+footer .body .blue-right .footer-contacts i{font-size:0.75rem; color:#7e91a0; font-weight:600; margin:0 0 1rem 0; display:block;}
+footer .body .blue-right .footer-contacts p{color:#7e91a0; margin:0 0 1rem 0;}
+footer .body .blue-right .footer-careers{padding:0 0 1rem 0; margin:0; float:left; width:100%; border-right:none; border-bottom:2px solid #536d80;}
+footer .body .blue-right .footer-careers p{padding:1rem 0 0 0; font-size:1.25rem; line-height:2.2rem; font-weight:400;}
+footer .body .blue-right .footer-social{padding:1rem 0 0 0; margin:0; float:left; width:100%;}
+
+footer .body .blue-right .footer-social a img{width:auto; margin:0.7rem 0 0 0;}
+footer .body-copy .copy{padding:0; margin:0; float:left; width:100%; text-align:left;}
+footer .body-copy .abc{padding:0; margin:0; float:left; width:100%; text-align:left;}
+section.inner-info .body .content .content-page-title span{margin:-10px 0 0.2rem 0;}
+section.inner-info .body .content .content-page-title span img{width:80%;}
+.tabs a {font-size:0.85rem;}
+section.inner-info .body {width:94%;}
+.tabgroup .tab-content {padding:1rem;}
+.modalDialog > div {width:320px; top:3rem; padding:2rem 1rem;}
+a.apply-position{margin:5rem 0 0 0; padding:1rem 0; width:100%; font-size:1.3rem;}
+section.inner-info .body .content .free-positions .position a h1{margin:0 15% 0.3rem 0; width:85%; font-size:1.2rem;}
+section.inner-info .body .content .free-positions .position a p{margin:0 15% 0 0; width:85%;}
+.partner-box{padding:1rem; margin:0 10% 1rem 10%; width:80%;}
+}
+
+@media only screen and (max-width: 320px) {
+header .body .logo{width:100%; text-align:center;}
+header .body .lang{width:94%; position:absolute; top:6.5rem; left:0; margin:0 3%; text-align:center; border-top:1px solid #CCCCCC; border-left:none; padding:0.5rem 0 0 0;}
+header .body .lang a{color:#3e3e3e; text-decoration:none; padding:0 1.5rem 0 0;}
+header .body .search{padding:0; margin:3rem 0 0 0; float:left; width:100%;}
+.button{top:191px; width:94%; height:46px; position:absolute; left:0.6rem; cursor:pointer; z-index: 1000;}
+section.home-info .body .companies{margin:1.2rem 0 0 0;}
+section.home-info .body .companies .slogan img{width:80%; margin:8px 0 0 8%; padding:0; float:left;}
+section.home-info .body .companies .main-company span.title-main-comp{font-size:3.6rem; padding:0 0.3rem;}
+section.home-info .body .companies .slogan{font-size:1.5rem; line-height:2rem; margin:1rem 0 0 0; width:100%;}
+section.inner-info .body .content .content-page-title span img{width:85%;}
+.tabs a {font-size:0.8rem;}
+.modalDialog > div {width:280px; top:3rem; padding:2rem 1rem;}
+section.inner-info .body .content .free-positions .position{padding:0.6rem;}
+section.inner-info .body .content .free-positions .position a h1{margin:0 15% 0.3rem 0; width:85%; font-size:1.05rem;}
+section.inner-info .body .content .free-positions .position a p{margin:0 15% 0 0; width:85%;}
+.partner-box{padding:1rem; margin:0 5% 1rem 5%; width:90%;}
+}
+
+
+

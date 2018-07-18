@@ -1,0 +1,24 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase            /workspace/docmagazine/
+ 
+RewriteRule ^/?$                                 index.php  [L]
+RewriteRule ^index.html$                         index.php  [L]
+ 
+RewriteRule ^documents/?$                        index.php?type=documents [L]  
+RewriteRule ^registration/?$                     index.php?type=registration [L] 
+RewriteRule ^subscriptions/?$                    index.php?type=subscriptions [L]
+RewriteRule ^login/?$                            index.php?type=login [L]
+RewriteRule ^exit/?$                             index.php?type=exit [L]
+RewriteRule ^confirm/([^/]+)/?$                  index.php?type=confirm&link=$1 [L]
+RewriteRule ^documents/([^/]+)/?$                index.php?type=documents&link=$1 [L]  
+RewriteRule ^documents/offset/([^/]+)/?$         index.php?type=documents&offset=$1 [L]   
+   
+RewriteRule ^smarty.*$                 -  [F]
+RewriteRule ^Smarty-3.1.21.*$          - [F]
+RewriteRule ^inc/.*$                   - [F]
+RewriteRule ^lib/.*$                   - [F]
+ 
+</IfModule>
