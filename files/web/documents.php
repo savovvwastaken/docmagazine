@@ -9,11 +9,9 @@ if ($link) {
      if (isset($_POST['name'])) $name=StripItem($_POST['name']); else $name="";
      if (isset($_POST['textdoc'])) $textdoc=StripItem2($_POST['textdoc']); else $textdoc="";
      if (isset($_POST['pay'])) $pay=1; else $pay=0;
-     if (isset($_POST['create'])) {
-     
       if (isset($_POST['create']))  {
        if (!$name) $err['name'] ="Въведете име";
-       if (!$name) $err['textdoc'] ="Въведете описание";
+       if (!$textdoc) $err['textdoc'] ="Въведете описание";
        if (isset($_FILES['pic'])) {
                 if (isset($_FILES['pic']['name']) && $_FILES['pic']['name']!='') {
                     $type_=explode(".", $_FILES['pic']['name']);
@@ -64,7 +62,7 @@ if ($link) {
            }
         }
            }
-      }
+     
        
      } else  $text="Вие не сте с администраторски права";
 

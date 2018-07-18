@@ -10,7 +10,7 @@ if (isset($_POST['sendres'])) {
   if (empty($err)) {
    if ($res==4) {
      $text = "Вие успешно се абонирахте за услугата!";
-     $sql="update $tableusers set subscription=1 where id = ".$_SESSION['user_login']['id'] ;
+     $sql="update $tableusers set subscription=1, date_subsr=NOW() where id = ".$_SESSION['user_login']['id'] ;
      $rs =$db->Execute($sql);
     
     $subscr=1;
